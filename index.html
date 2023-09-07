@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessi Wu</title>
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&
+  family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav_container">
+      <a href="index.html" class="nav_logo">
+        <img src="./assets/logo.png" alt="Navbar Logo">
+      </a>
+      <ul class="nav_menu">
+        <li><a href='#'>Home</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#projects'>Projects</a></li>
+        <li><a href='#contact'>Contact</a></li>
+      </ul>
+      <div class="nav_buttons">
+        <button class="nav_theme-btn"><i class="uil uil-moon"></i></button>
+        <button class="nav_toggle-open"><i class="uil uil-bars"></i></button>
+        <button class="nav_toggle-close"><i class="uil uil-multiply"></i></button>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="container header_container">
+      <article class="header_image" data-aos="fade-up" data-aos-delay="700">
+        <div><img src="./assets/puzzle.png" alt="Header Image"></div>
+      </article>
+      <article class="header_content" data-aos="fade-in">
+        <h2>Hello, I'm <span>Jessi Wu</span>.</h2>
+        <h2>Data Analyst & Developer</h2>
+        <div class="header_cta">
+          <a href="#projects" class="btn primary">Portfolio</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </article>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <div class="container about_container">
+      <div class="about_image">
+        <img src="./assets/roosevelt.jpeg" alt="Roosevelt Island">
+      </div>
+      <div class="about_details" data-aos="fade-in" data-aos-delay="300">
+        <h1>About Me</h1>
+        <p>With a background in Computer Science, I've always been
+          captivated by the boundless world of technology and its intricate problem-solving
+          nature. I enjoy the creative process of building something from scratch and solving
+          complex problems through code.</p>
+        <p>Recently, my journey has led me to the realm of data analytics, where I've discovered
+          a similar sense of joy. Just as code breathes life into programs and applications, raw
+          data presents a blank canvas, ready to be transformed into a vivid picture of insights
+          and discoveries.</p>
+        <p>I am currently expanding my understanding of the field of data analytics and am keenly
+          interested in software and data opportunities where I can continue to expand my skill set,
+          explore new technologies, and contribute to innovative projects.</p>
+        <a href="./assets/Jessi Wu Resume.pdf" class="btn primary" target="_blank">Resume</a>
+      </div>
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h1>Projects</h1>
+    <ul class="projects_categories">
+      <li class="active" data-filter="*">All</li>
+      <li data-filter=".analysis">Data Analysis</li>
+      <li data-filter=".dashboard">Dashboard</li>
+      <li data-filter=".frontend">Frontend</li>
+      <li data-filter=".mobile">Mobile App</li>
+    </ul>
+    <div class="container projects_container" data-aos="fade-in">
+      <article class="project mix analysis" data-order="1">
+        <div class="project_image">
+          <img src="./assets/eviction.png" alt="NYC Evictions Analysis">
+        </div>
+        <h3>NYC Eviction Rates Analysis</h3>
+        <h5>2023</h5>
+        <p>Conducted an extensive exploratory data analysis on the NYC
+          Evictions dataset obtained from NYC OpenData, involving the
+          analysis of 70,000 NYC eviction cases spanning from 2017 to
+          early 2022. Utilized Python in Colab to meticulously clean
+          over 7,000 entries, ensuring data integrity and facilitating
+          precise data visualization and analysis in Tableau.</p>
+        <div class="'project_cta">
+          <a href="https://docs.google.com/presentation/d/1XGajNbCXGulqCLS9ZFM__bU7aO1KOzZ3v8TCoKPozTU/present?usp=sharing" class="btn sm primary" target="_blank">Slides</a>
+          <a href="https://github.com/Jessz5/NYC-Evictions-Data" class="btn sm" target="_blank">Github</a>
+        </div>
+      </article>
+      <article class="project mix dashboard" data-order="2">
+        <div class="project_image">
+          <img src="./assets/airbnb.png" alt="Airbnb Dashboard">
+        </div>
+        <h3>Airbnb Dashboard</h3>
+        <h5>2023</h5>
+        <p>Airbnb globally connects travelers with short-term rental hosts.
+          Stakeholders can employ insights from the NYC Airbnb dashboard for
+          investment decisions and pricing strategies. Based on the analysis,
+          profitable investment prospects are found in both Staten Island and
+          Manhattan. Manhattan, boasting prime location, tourist demand, and
+          diverse listings, emerges as a standout for maximizing returns,
+          while Staten Island's limited availability propels higher prices.</p>
+        <div class="'project_cta">
+          <a href="https://public.tableau.com/app/profile/jessi.wu/viz/NewYorkCityAirbnb_16806447725950/Dashboard1" class="btn sm" target="_blank">Tableau</a>
+        </div>
+      </article>
+      <article class="project mix frontend" data-order="3">
+        <div class="project_image">
+          <img src="./assets/curator.png" alt="Curator">
+        </div>
+        <h3>Curator</h3>
+        <h5>2021</h5>
+        <p>Collaborated with three students to develop a user-friendly React music app
+          that facilitates song discovery, sharing, and discussions. Integrated the
+          Spotify API using client credentials and utilized predefined Swagger endpoints
+          for features like posts and user connections. Additionally, refined
+          the app's design and functionality through usability and A/B tests based on
+          user feedback.</p>
+        <div class="'project_cta">
+          <a href="https://github.com/Jessz5/Curator" class="btn sm" target="_blank">Github</a>
+        </div>
+      </article>
+      <article class="project mix mobile" data-order="4">
+        <div class="project_image">
+          <img src="./assets/bestStudy.png" alt="Best Study">
+        </div>
+        <h3>Best Study</h3>
+        <h5>2020</h5>
+        <p>Created a Java planner app in Android Studio with a team of 4 developers for
+          college students, allowing them to save Zoom links for class meetings, add to-do
+          tasks, schedule reminders, and calculate their grades. The project followed an
+          Agile methodology, with weekly meetings and bi-weekly sprints, managed via Zenhub.</p>
+          <div class="'project_cta">
+          <a href="https://github.com/CSE-Courses/course-project-ajany-a9" class="btn sm" target="_blank">Github</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <div class="container contact_container">
+      <ul class="contact_list">
+        <li data-aos="fade-up"><a href="mailto:jessiwu5@gmail.com" class="contact_list-item" target="_blank">
+          <i class="uil uil-envelope"></i>
+        </a></li>
+        <li data-aos="fade-up" data-aos-delay="150"><a href="https://linkedin.com/in/jessi-wu/" class="contact_list-item" target="_blank">
+          <i class="uil uil-linkedin"></i>
+        </a></li>
+        <li data-aos="fade-up" data-aos-delay="300"><a href="https://github.com/Jessz5" class="contact_list-item" target="_blank">
+          <i class="uil uil-github"></i>
+        </a></li>
+      </ul>
+      <p>&copy; 2023 Jessi Wu</p>
+    </div>
+  </section>
+  <script src="./mix/dist/mixitup.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({duration: 1500, offset: 80});</script>
+  <script src="index.js"></script>
+</body>
+</html>
