@@ -36,7 +36,7 @@
       </article>
       <article class="header_content" data-aos="fade-in">
         <h2>Hello, I'm <span>Jessi Wu</span>.</h2>
-        <h2>Data Analyst & Developer</h2>
+        <h2>Data Analyst</h2>
         <div class="header_cta">
           <a href="#projects" class="btn primary">Portfolio</a>
           <a href="#contact" class="btn">Contact</a>
@@ -51,17 +51,17 @@
       </div>
       <div class="about_details" data-aos="fade-in" data-aos-delay="300">
         <h1>About Me</h1>
-        <p>With a background in Computer Science, I've always been
-          captivated by the boundless world of technology and its intricate problem-solving
-          nature. I enjoy the creative process of building something from scratch and solving
-          complex problems through code.</p>
-        <p>Recently, my journey has led me to the realm of data analytics, where I've discovered
-          a similar sense of joy. Just as code breathes life into programs and applications, raw
-          data presents a blank canvas, ready to be transformed into a vivid picture of insights
-          and discoveries.</p>
-        <p>I am currently expanding my understanding of the field of data analytics and am keenly
-          interested in software and data opportunities where I can continue to expand my skill set,
-          explore new technologies, and contribute to innovative projects.</p>
+        <p>I am a computer science graduate passionate about leveraging technology to solve
+          complex problems and drive innovation, with a strong interest in data analytics and
+          the transformative potential it holds.</p>
+        <p>I have experience with collecting, cleaning, and preparing data for analysis,
+          ensuring its accuracy and completeness, as well as using various statistical
+          and visualization techniques to analyze data and uncover patterns, trends, and
+          relationships.</p>
+        <p>I am currently seeking a new challenge in a fast-paced environment where I can
+          apply my skills and experience to make a positive impact. I am highly motivated
+          to continuously learn and grow in my role, and I am eager to explore opportunities
+          that will allow me to further develop and broaden my skill set.</p>
         <a href="./assets/Jessi Wu Resume.pdf" class="btn primary" target="_blank">Resume</a>
       </div>
     </div>
@@ -72,11 +72,33 @@
       <li class="active" data-filter="*">All</li>
       <li data-filter=".analysis">Data Analysis</li>
       <li data-filter=".dashboard">Dashboard</li>
+      <!--
       <li data-filter=".frontend">Frontend</li>
       <li data-filter=".mobile">Mobile App</li>
+      -->
     </ul>
     <div class="container projects_container" data-aos="fade-in">
-      <article class="project mix analysis" data-order="1">
+      <article class="project mix analysis dashboard" data-order="1">
+        <div class="project_image">
+          <img src="./assets/influenza.png" alt="NYS Influenza Analysis">
+        </div>
+        <h3>NYS Influenza Analysis</h3>
+        <h5>2024</h5>
+        <p>Performed exploratory data analysis on New York State's influenza
+          outbreak data for the 2023-2024 season, using Python and Pandas in
+          Google Colab for dataset cleaning. Addressed data integrity in two
+          key datasets containing 4,836 cases and 33,430 hospitalizations by
+          resolving missing values and duplicates, and filtered and merged the
+          datasets into a cohesive set of 2,672 rows for in-depth analysis.
+          Developed an interactive Tableau dashboard to illustrate influenza
+          incidence rates, showcasing trends in cases and hospitalizations
+          across various age groups, regions, and counties.</p>
+        <div class="'project_cta">
+          <a href="https://public.tableau.com/app/profile/jessi.wu/viz/NYSInfluenza/NYSInfluenzaDashboard" class="btn sm primary" target="_blank">Tableau</a>
+          <a href="https://github.com/Jessz5/NYS-Influenza-Analysis" class="btn sm" target="_blank">Github</a>
+        </div>
+      </article>
+      <article class="project mix analysis" data-order="2">
         <div class="project_image">
           <img src="./assets/eviction.png" alt="NYC Evictions Analysis">
         </div>
@@ -93,23 +115,24 @@
           <a href="https://github.com/Jessz5/NYC-Evictions-Data" class="btn sm" target="_blank">Github</a>
         </div>
       </article>
-      <article class="project mix dashboard" data-order="2">
+      <article class="project mix dashboard" data-order="3">
         <div class="project_image">
           <img src="./assets/airbnb.png" alt="Airbnb Dashboard">
         </div>
         <h3>Airbnb Dashboard</h3>
         <h5>2023</h5>
-        <p>Airbnb globally connects travelers with short-term rental hosts.
-          Stakeholders can employ insights from the NYC Airbnb dashboard for
-          investment decisions and pricing strategies. Based on the analysis,
-          profitable investment prospects are found in both Staten Island and
-          Manhattan. Manhattan, boasting prime location, tourist demand, and
-          diverse listings, emerges as a standout for maximizing returns,
-          while Staten Island's limited availability propels higher prices.</p>
+        <p>Created a Tableau dashboard to visualize New York City Airbnb listings data,
+          providing insights into pricing trends, popular neighborhoods, and investment
+          opportunities. The dashboard enables hosts and stakeholders to make informed
+          decisions, with profitable prospects identified in both Staten Island and
+          Manhattan. Manhattan stands out for its prime location, tourist demand, and
+          diverse listings, while Staten Island commands higher prices due to its
+          limited availability.</p>
         <div class="'project_cta">
           <a href="https://public.tableau.com/app/profile/jessi.wu/viz/NewYorkCityAirbnb_16806447725950/Dashboard1" class="btn sm" target="_blank">Tableau</a>
         </div>
       </article>
+      <!--
       <article class="project mix frontend" data-order="3">
         <div class="project_image">
           <img src="./assets/curator.png" alt="Curator">
@@ -140,6 +163,7 @@
           <a href="https://github.com/CSE-Courses/course-project-ajany-a9" class="btn sm" target="_blank">Github</a>
         </div>
       </article>
+      -->
     </div>
   </section>
   <section class="contact" id="contact">
@@ -156,7 +180,7 @@
           <i class="uil uil-github"></i>
         </a></li>
       </ul>
-      <p>&copy; 2023 Jessi Wu</p>
+      <p>&copy; 2024 Jessi Wu</p>
     </div>
   </section>
   <script src="./mix/dist/mixitup.min.js"></script>
